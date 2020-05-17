@@ -1,0 +1,14 @@
+{
+  "name": "bugtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r ts-node/register"
+  },
+  "devDependencies": {
+    "bugdep": "workspace:*",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
